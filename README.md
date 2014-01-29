@@ -13,17 +13,14 @@ public class Sort{
 		int[] arr = new int[]{2,5,6,8,3};
 		System.out.print("排序前：");
 		printArr(arr);
-		System.out.println();
 		
 		selectSort(arr);                              //选择排序
 		System.out.print("排序后：");
 		printArr(arr);
-		System.out.println();
-	
+
 		bubbleSort(arr);                              //冒泡排序
 		System.out.print("排序后：");
 		printArr(arr);
-		System.out.println();
 	}
 	
 	public static void selectSort(int[] arr){          //选择排序
@@ -56,6 +53,7 @@ public class Sort{
 		for(int i = 0; i < arr.length; i++){
 			System.out.print(arr[i] + "	");
 		}
+		System.out.println();
 	}
 	
 	
